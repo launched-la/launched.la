@@ -3,5 +3,6 @@
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  padding: 24px;
   text-align: center;
 }
