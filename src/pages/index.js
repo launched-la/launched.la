@@ -14,8 +14,10 @@ export default ({data}) => <Page>
 
   <div style={{width: '400px'}}>
     <Img fluid={data.file.childImageSharp.fluid} />
+    <div style={{marginTop: '16px'}}>We conceive, explore, and launch healthy lifestyle next-gen brands offering premium but affordable choices in retail and beyond. We work with other passionate thought leaders to deliver on the promise that everyone deserves access to healthier alternatives.</div>
+    <div style={{marginTop: '16px'}}>For all inquiries please <a href='mailto:contact@launched.la'>contact us</a>.</div>
     <div style={{marginTop: '16px'}}>
-      Coming soon // LA, CA, USA // &copy;2019
+      Los Angeles, USA // &copy;2019
     </div>
   </div>
 </Page>
