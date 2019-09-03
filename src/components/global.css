@@ -11,3 +11,9 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* grid */
+@media (min-width: 500px) {
+  .grid { display: flex; }
+  .grid > * { flex: 1; }
+}
