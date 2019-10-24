@@ -19,11 +19,13 @@ export default ({data}) => <Page>
       <a href='https://hellobello.com' target='_blank'>
         <Img fluid={data.helloBelloLogo.childImageSharp.fluid} />
       </a>
+      <a href='https://tillerandhatch.com' target='_blank'>
+        <Img fluid={data.tillerAndHatchLogo.childImageSharp.fluid} />
+      </a>
       <a href='https://taffersmix.com' target='_blank'>
         <Img fluid={data.taffersLogo.childImageSharp.fluid} />
       </a>
       <Img fluid={data.stateOfSunLogo.childImageSharp.fluid} />
-      <Img fluid={data.tillerAndHatchLogo.childImageSharp.fluid} />
     </div>
     <p>For all inquiries please <a href='mailto:contact@launched.la'>contact us</a>.</p>
     <p>Los Angeles, USA // &copy;2019</p>
