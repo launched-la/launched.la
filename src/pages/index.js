@@ -28,8 +28,7 @@ export default ({data}) => <Page>
       <Img fluid={data.stateOfSunLogo.childImageSharp.fluid} />
     </div>
     <p>For all inquiries please <a href='mailto:contact@launched.la'>contact us</a>.</p>
-    <p>Los Angeles, USA // &copy;2019</p>
-    <p>17383 Suite B200 Sunset Blvd Pacific Palisades CA, 90272</p>
+    <p>17383 Suite B200 Sunset Blvd Pacific Palisades CA, 90272 USA // &copy;2019</p>
   </div>
 </Page>
 
